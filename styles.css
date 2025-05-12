@@ -13,3 +13,7 @@ body{
         padding: 30px;
         border: 1px solid gray;
     }
+
+    .description{
+        width: 560px;
+    }
