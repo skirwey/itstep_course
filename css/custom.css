@@ -1,0 +1,21 @@
+div {
+    
+    border-width: 10px;
+    background-color: pink;
+    border-color: pink;
+
+    margin: 10px;
+
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    margin: 20px 10px 5px 40px;
+}
+
+span{
+    background-color: rgb(209, 136, 148);
+    
+}

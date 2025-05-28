@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        label{
+            display: block;
+        }
+        textarea{
+            resize: none;
+        }
+        html, body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        video{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <form action="/" method="GET">
+        <div>
+                    <label for="">Введите ФИО</label>
+                    <input type="text" name="fio" placeholder="Введите ФИО" required/>
+                    </div>
+                    <div>
+                        <label for="">Введите email</label>
+                        <input type="email" name="email" />
+                    </div>
+                      
+                    <input type="date" name="birthday" /> 
+                    <input type="url" name="github" /> 
+                    <input type="file" name="cv" /> <br>
+                    <input type="checkbox" name="gender" value="male" />  Мужской <br>
+                    <input type="checkbox" name="gender" value="female" />  Женский
+                    <br>
+                    <br><input type="radio" name="grade" value="Базовое" /> Базовое
+                    <br><input type="radio" name="grade" value="Среднее" /> Среднее
+                    <br><input type="radio" name="grade" value="Высшее" /> Высшее
+                    <br><input type="password" name="password" required/>
+                    <div>
+                        <label for="">Расскажите о себе</label>
+                        <textarea name="about" cols="20" rows="10" re></textarea>
+                    </div>
+                    <div>
+                        <label for="">Выберите желаемую должность</label>
+                        <select name="rank">
+                        <optgroup label="Высший менеджмент">
+                            <option value="director">Директор</option>
+                            <option value="manager">Менеджер</option>
+                        </optgroup>
+                        <optgroup label="Работяга">
+                            <option value="master">Мастер</option>
+                        </optgroup>
+                        </select>
+                    </div>
+            
+                    <button type="submit">Запрос</button>
+                    <br><input type="color" />
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kPu1-G2MR_8?si=zrzpRuVXRM4fEKF7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
+    </form>
+</body>
+</html>
