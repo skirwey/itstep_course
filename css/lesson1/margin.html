@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <style>
+        div{
+            width: 992px;
+            margin: 0 auto;
+        }
+        #block1{
+            background-color: brown;
+            
+        }
+        #block2{
+            background-color: cornflowerblue;
+            height: 100px;
+            font-size: 20px;
+            /*color: blue;*/
+            font-weight: 700;
+            border: 2px solid red;
+        }
+        #block1 a{
+            /*color: darkgoldenrod;*/
+        }
+        a{
+            /*color: red;*/
+        }
+        #block2 a{
+            /*color: darkmagenta;*/
+        }
+        .color_red{
+            color: red;
+        }
+        .color_yellow{
+            color: yellow;
+        }
+        .color_green{
+            color: green;
+        }
+        .color_pink{
+            color: pink;
+        }
+        .big_text{
+            font-size: 30px;
+        }
+        #block1 a.color_green{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="block1">
+        <ul>
+            <li><a href="" class="color_pink big_text">ссылка 1</a></li>
+            <li><a href="" class="color_green">ссылка 2</a></li>
+            <li><a href="" class="color_red">ссылка 3</a></li>
+            <li><a href="" class="color_yellow">ссылка 4</a></li>
+            <li><a href="">ссылка 5</a></li>
+        </ul>
+    </div>
+    <div id="block2" class="color_pink">
+        <ul>
+            <li>lorem ipsum</li>
+        </ul>
+        <a href="">ссылка</a>
+    </div>
+    <a href="">ссылка</a>
+</body>
+</html>
