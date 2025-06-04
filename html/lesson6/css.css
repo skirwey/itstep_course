@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.register_form button{
+    background-color: #1cbc11;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.register_form{
+    padding: 15px;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.register_form input{
+    border: 1px solid #ccc;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+#block1{
+    width: 40px;
+    background-color: #ddd;
+    border: 1px solid black;
+    height: 40px;
+    color: black;
+    float: left;
+    padding: 13px;
+    margin: 0 auto;
+}
+
+#block1::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
