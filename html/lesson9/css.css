@@ -1,0 +1,32 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container div{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.container div:last-child{
+    background-color: rgb(81, 142, 255);
+}
+
+.container div:first-child{
+    background-color: rgb(182, 103, 255);
+}
+
+.container div:nth-child(3){
+    background-color: rgb(255, 243, 79);
+}
+
+.container div:nth-child(odd){
+    position: relative;
+    left: 50px;
+}
+
+.container div:nth-child(n+2){
+    display: inline-block;
+}
