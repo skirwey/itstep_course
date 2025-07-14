@@ -1,0 +1,153 @@
+body{
+    font-family: 'Poppins';
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 67px;
+    text-decoration: none;
+}
+
+header section{
+    margin-top: 24px;
+    width: 1111px;
+}
+
+.group_15{
+    padding-left: 805px;
+}
+
+main section img{
+    width: 100%;
+}
+
+main div div p{
+    margin-top: 0;
+}
+
+.get{
+    width: 114px;
+    height: 24px;
+    margin-top: 45px;
+    overflow: hidden;
+    
+}
+
+.antello{
+    width: 581px;
+    height: 55px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    overflow: hidden;
+}
+
+.glav{
+    width: 616px;
+    height: 222px;
+    margin-top: 22px;
+    line-height: 74px;
+    font-size: 60px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.place{
+    width: 100px;
+    height: 21px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+main{
+    background-image: url(Bitmap.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+main div{ 
+    width: 616px;
+    height: 412px;
+}
+
+.container{
+    margin-top: 188px;
+    margin-left: 400px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 937px;
+}
+
+.container2{
+    width: 1110px;
+    height: 611px;
+}
+
+.pod_div{
+    margin-top: 150px;
+    width: 1110px;
+    height: 461px;
+}
+
+.deation{
+    width: 607px;
+    height: 92px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+    line-height: 46px;
+}
+
+.products{
+    display: flex;
+    gap: 30px;
+    width: 1110px;
+    height: 309px;
+    margin-top: 60px;
+}
+
+.products_div{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 309px;
+}
+
+.p1{
+    width: 183px;
+    height: 68px;
+    font-size: 24px;
+    line-height: 34px;
+    margin-left: 30px;
+    color: #4D533C;
+}
+
+.p2{
+    width: 194px;
+    height: 78px;
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #2138429a;
+}
+
+.p3{
+    width: 102px;
+    height: 24px;
+    font-size: 24px;
+    line-height: 34px;
+    margin-left: 30px;
+    margin-top: 56px;
+}
