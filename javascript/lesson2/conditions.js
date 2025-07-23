@@ -107,7 +107,7 @@ let seconds = 56;
 
 if((hours < 0 || hours > 24) || (minutes < 0 || minutes > 60) || (seconds < 0 || seconds > 60)) {
     console.log('Данные введены неверно');
-}*/
+}
 
 
 
@@ -129,5 +129,23 @@ switch(znak) {
         console.log(num1 / num2);
     break;
 }
+
+
+
+
+let m = 5;
+let n = 7;
+console.log((m>n)?m:n);
+
+
+let a = 7;
+let b = 'Число кратно 5!';
+let c = 'Число не кратно 5.';
+console.log((a%5==0)?b:c);*/
+
+
+
+let nameEarth = 'darth';
+console.log((nameEarth=='Earth'||nameEarth=='earth')?'Привет, землянин!':'Привет, инопланетянин');
 
 
