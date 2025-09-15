@@ -1,0 +1,22 @@
+.notification {
+    max-width: 350px;
+    padding: 15px 25px;
+    background-color: rgb(255, 132, 169);
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    box-shadow: 3px 4px 10px 1px #7d7d7d, 7px 5px 10px 1px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
+.notification.hide{
+    opacity: 0;
+}
+
+.notification.error{
+    background-color: crimson;
+}
