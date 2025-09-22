@@ -1,0 +1,35 @@
+.container {
+    background-color: white;
+width: 400px;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 80%;
+border: 1px solid black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+}
+
+.animated {
+    animation: rot 1s infinite linear forwards;
+}
+
+@keyframes rot {
+    0%{
+        transform:rotateX(0);
+    }
+    100% {
+        transform:rotateX(360deg);
+    }
+}
