@@ -1,0 +1,84 @@
+body, html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #04041f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: rgb(24, 24, 41);
+    width: 700px;
+    border-radius: 10px;
+    border: 1px solid rgb(104, 104, 104);
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.input {
+    color:rgb(104, 104, 104);
+    font-size: 17px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 10px;
+    background-color: #05051f;
+    margin-left: 25px;
+    width: 530px;
+    height: 40px;
+}
+
+.button {
+    width: 100px;
+    height: 43px;
+    margin-left: 10px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #3838d4;
+    cursor: pointer;
+}
+
+.task {
+    width: 650px;
+    height: 70px;
+    background-color: rgb(26, 26, 34);
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+}
+
+.checkbox {
+    margin-left: 20px;
+}
+
+.p {
+    margin-left: 10px;
+}
+
+.symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 10px;
+    background-color: rgb(61, 61, 61);
+    margin-top: 15px;
+    margin-left: 460px;
+    cursor: pointer;
+}
