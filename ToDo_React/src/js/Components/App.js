@@ -1,4 +1,7 @@
 import {useState} from 'react';
+import Timer from './Timer';
+import Counter from './Counter';
+import TextInput from './TextInput';
 
 import H1 from '../Components/headers/H1';
 
@@ -10,21 +13,9 @@ export default function App () {
 
     return (
         <>
-            <H1 headerText={"ToDo"} />
-            <input class="input" type="text" placeholder="Новая задача..."/>
-            <button class="button">Добавить</button>
-            <div class="task">
-                <input type="checkbox" class="checkbox"/> <p class="p">Задача 1</p>
-                <div class="symbol">
-                    &#215;
-                </div>
-            </div>
-            <div class="task">
-                <input type="checkbox" class="checkbox"/> <p class="p">Задача 2</p>
-                <div class="symbol">
-                 &#215;
-                </div>
-            </div>
-    </>
+            <Counter />
+            <Timer />
+            <TextInput value={10} onChange={(event) => console.log(event.target.value)}/>
+        </>
     );
 }
